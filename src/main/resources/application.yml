@@ -1,0 +1,13 @@
+spring:
+  config:
+    import: application-secret.yml
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+mybatis:
+  mapper-locations:
+    - /mappers/*.xml
+
+
