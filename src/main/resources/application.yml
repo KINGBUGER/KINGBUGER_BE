@@ -4,10 +4,10 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
     show-sql: true
 
-mybatis:
-  mapper-locations:
-    - /mappers/*.xml
 
 
